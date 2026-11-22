@@ -25,6 +25,9 @@ Projekt založený starší verzí Claude sám nabídne aktualizovat (pozná to 
   rodech; u osoby sekce „Vlastnoruční podpis“. Zobrazí se jen tehdy, když jsou v `data/podpisy.json` nějaké podpisy
   (formát a obrázky v `reference/web.md`), jinak nevznikne ani stránka, ani položka v menu. Nový `tools/export_podpisy.py`
   (volá ho `export_web.py`).
+- Web: volitelná stránka **Dvakrát ve stromě** (`/dvakrat/`) – předci, kteří jsou v rodokmenu vícekrát (sňatky příbuzných):
+  společní předci, schéma sestupu, míra příbuzenství a dispenz z oddací matriky. Zobrazí se jen tehdy, když je
+  v `data/osoby.py` aspoň jedno `SAME`, jinak nevznikne ani stránka, ani položka v menu.
 
 ## 0.10.2 – 16. 11. 2026
 
