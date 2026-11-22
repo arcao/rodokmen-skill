@@ -18,6 +18,9 @@ Projekt založený starší verzí Claude sám nabídne aktualizovat (pozná to 
 - Web: stránka **Kalendář** (`/kalendar/`) – kdo z předků se v který den narodil, byl pokřtěn, oženil se nebo zemřel,
   bez ohledu na rok. Jen události s přesně známým dnem a měsícem (z faktů `* 3. 5. 1921`, `× …`, `† …` v `data/osoby.py`);
   žijící osoby a svatby s nimi se v kalendáři nezobrazí.
+- Web: stránka **Časová osa** (`/casova-osa/`) – každý předek jako pruh od narození do smrti, barevně podle rodu; odhadnuté
+  roky vybledávají, najetím myší se ukáže, kolik předků tehdy žilo. Žijící osoby na ose nejsou. Bez známých roků se
+  stránka ani položka v menu nezobrazí.
 
 ## 0.10.2 – 16. 11. 2026
 
