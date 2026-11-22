@@ -31,6 +31,9 @@ Projekt založený starší verzí Claude sám nabídne aktualizovat (pozná to 
 - Web: volitelná stránka **Dvakrát ve stromě** (`/dvakrat/`) – předci, kteří jsou v rodokmenu vícekrát (sňatky příbuzných):
   společní předci, schéma sestupu, míra příbuzenství a dispenz z oddací matriky. Zobrazí se jen tehdy, když je
   v `data/osoby.py` aspoň jedno `SAME`, jinak nevznikne ani stránka, ani položka v menu.
+- Nový nástroj **`tools/stejna_osoba.py <další-číslo> <první-číslo>`**: zapíše předka, který je ve stromě podruhé, do `SAME`
+  v `data/osoby.py` – ohlídá obě osoby, jméno, roky, rodiče, předky nad aliasem a počet záznamů, zbytek souboru nechá. SKILL.md
+  agenta vede, aby takového předka zapsal tímto nástrojem, ne druhým nezávislým záznamem.
 - Web: stránka **Domy předků** (`/domy/` a stránka každého domu) – čísla popisná, ke kterým se váží aspoň tři předci:
   mapa obcí, seznam domů, u každého domu kdo tu žil, časová osa a zápisy, které dům zmiňují. Čísla popisná se čtou z textů
   o osobách a ze zápisů („Holice čp. 112“); obec se pozná podle míst na mapě webu. Je volitelná: bez domu s třemi
