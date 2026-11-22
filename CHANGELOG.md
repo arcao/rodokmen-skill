@@ -28,6 +28,10 @@ Projekt založený starší verzí Claude sám nabídne aktualizovat (pozná to 
 - Web: volitelná stránka **Dvakrát ve stromě** (`/dvakrat/`) – předci, kteří jsou v rodokmenu vícekrát (sňatky příbuzných):
   společní předci, schéma sestupu, míra příbuzenství a dispenz z oddací matriky. Zobrazí se jen tehdy, když je
   v `data/osoby.py` aspoň jedno `SAME`, jinak nevznikne ani stránka, ani položka v menu.
+- Web: stránka **Domy předků** (`/domy/` a stránka každého domu) – čísla popisná, ke kterým se váží aspoň tři předci:
+  mapa obcí, seznam domů, u každého domu kdo tu žil, časová osa a zápisy, které dům zmiňují. Čísla popisná se čtou z textů
+  o osobách a ze zápisů („Holice čp. 112“); obec se pozná podle míst na mapě webu. Je volitelná: bez domu s třemi
+  předky se stránky nevytvoří a v menu nejsou. Žijící osoby se nepočítají. Nový `tools/export_domy.py` (volá ho `export_web.py`).
 
 ## 0.10.2 – 16. 11. 2026
 
