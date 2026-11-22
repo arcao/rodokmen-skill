@@ -21,6 +21,10 @@ Projekt založený starší verzí Claude sám nabídne aktualizovat (pozná to 
 - Web: stránka **Časová osa** (`/casova-osa/`) – každý předek jako pruh od narození do smrti, barevně podle rodu; odhadnuté
   roky vybledávají, najetím myší se ukáže, kolik předků tehdy žilo. Žijící osoby na ose nejsou. Bez známých roků se
   stránka ani položka v menu nezobrazí.
+- Web: volitelná stránka **Podpisy** (`/podpisy/`) – vlastnoruční podpisy a křížky předků vystřižené ze zápisů, řazené po
+  rodech; u osoby sekce „Vlastnoruční podpis“. Zobrazí se jen tehdy, když jsou v `data/podpisy.json` nějaké podpisy
+  (formát a obrázky v `reference/web.md`), jinak nevznikne ani stránka, ani položka v menu. Nový `tools/export_podpisy.py`
+  (volá ho `export_web.py`).
 
 ## 0.10.2 – 16. 11. 2026
 

@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { config } from '../lib/data.js';
+import { config, maPodpisy } from '../lib/data.js';
 import { maStatistiky } from '../lib/stats.js';
 import { maCasovouOsu } from '../lib/zivoty.js';
 const siteName = config.nazev || 'Rodokmen';
@@ -8,7 +8,7 @@ const { title, description = config.popis || siteName, wide = false, wider = fal
 const path = Astro.url.pathname;
 const groups = [
   [['/', 'Úvod'], ...(config.maPribeh ? [['/pribehy/', config.pribeh?.menu || 'Příběh rodu']] : []), ['/zajimavosti/', 'Zajímavosti']],
-  [['/rody/', 'Rody'], ['/mapa/', 'Mapa'], ['/vejir/', 'Vějíř'], ...(maCasovouOsu ? [['/casova-osa/', 'Časová osa']] : []), ['/predci/', 'Předci'], ['/jmena/', 'Jména'], ['/kalendar/', 'Kalendář'], ...(maStatistiky ? [['/statistiky/', 'Statistiky']] : []), ['/zapisy/', 'Zápisy'], ['/hledame/', 'Co hledáme']],
+  [['/rody/', 'Rody'], ['/mapa/', 'Mapa'], ['/vejir/', 'Vějíř'], ...(maCasovouOsu ? [['/casova-osa/', 'Časová osa']] : []), ['/predci/', 'Předci'], ['/jmena/', 'Jména'], ['/kalendar/', 'Kalendář'], ...(maStatistiky ? [['/statistiky/', 'Statistiky']] : []), ...(maPodpisy ? [['/podpisy/', 'Podpisy']] : []), ['/zapisy/', 'Zápisy'], ['/hledame/', 'Co hledáme']],
   [['/hledat/', 'Hledat']],
 ];
 const current = (url) => ((url === '/' ? path === '/' : path.startsWith(url)) ? 'page' : undefined);
