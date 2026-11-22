@@ -98,13 +98,13 @@ Základní smyčka pro každou osobu:
    **Děti rodičů:** jakmile máš u páru přečtené křty dětí (dítě v přímé linii + sourozenci v `SIDE`), zapiš rodiči fakt
    `děti: Jan 1820, Marie 1822` – čte ho stránka Statistiky. Větu **nepiš z hlavy**: `python3 -I tools/deti.py <číslo | jméno>`
    ji navrhne z dat (`--zapsat` ji zapíše, `--vse` projde všechny páry); `kontrola.py` varuje, když fakt nemá tento tvar.
-   Nová obec předků → `tools/mista.py pridej "Obec"` (mapa), nový pradědeček nebo prababička (8–15) → rod do `LINES`.
    **Podpisy a křížky:** při čtení každého zápisu se podívej, jestli jsou na něm vlastnoruční podpisy nebo křížky
    (ženich a nevěsta, svědci, kmotři, rodiče svolující k sňatku nezletilého; od josefínských dob kdo neuměl psát, udělal
    křížky). Našel-li jsi je, **nabídni uživateli, že je přidáš na stránku Podpisy**, a když souhlasí, udělej to nástrojem,
    ne ručním psaním souborů: `python3 -I tools/podpis.py <klíč zápisu> <číslo osoby | část jména> podpis|krizky --text "Wáclaw Nowak"
    --vyrez x0,y0,x1,y1` (zlomky 0–1 obrázku zápisu; **prohlédni si** vzniklý `podpisy/<id>.jpg`, jestli je podpis celý).
    Nástroj vystřihne obrázek, ohlídá osobu i zápis a zapíše `data/podpisy.json` (`--smazat <id>` záznam odstraní).
+   Nová obec předků → `tools/mista.py pridej "Obec"` (mapa), nový pradědeček nebo prababička (8–15) → rod do `LINES`.
 6. **Zapiš hledání do deníku** `data/research_log.md` – i neúspěšné, s rozsahem (které roky / snímky jsi prošel)
    a u neúspěšného, jestli s dokladem, nebo jen orientačně (Pomocníci níže).
    **Zjevně související výskyt** po cestě (vzácné příjmení rodu, stejný dům, jméno z rodinného vyprávění) zapiš do
