@@ -2,15 +2,16 @@
 
 ## Žijící lidé
 - Na webu jen jméno a rok narození (`note="Žijící – údaje jen základní."`). Žádné adresy, telefony, rodná čísla,
-  zdravotní údaje, rozvody, nemanželské děti u žijících či nedávno zemřelých bez souhlasu rodiny.
-- Citlivé věci z nedávné minulosti (sebevraždy, věznění, nemoci) – zeptej se uživatele, jestli a jak je zmínit.
+  zdravotní údaje, rozvody ani nemanželské děti u žijících bez souhlasu rodiny.
+- **U zemřelých citlivé údaje neřeš** (příčina smrti včetně sebevraždy, nemoci, věznění, rozvody, nemanželský původ):
+  patří k historii rodiny. Zapiš je i na web jako ostatní údaje, věcně a ohleduplně, na souhlas se neptej a nevynechávej je.
 - Matriční údaje starší než lhůty jsou veřejné, ale ohleduplnost platí i pro ně (zbytečně nezesměšňovat).
 
 ## Před zveřejněním webu projdi s uživatelem
 `python3 -I tools/kontrola.py` hlásí `CITLIVÉ` u textů z posledních ~100 let (sebevražda, nemoc, rozvod, dluhy, nemanželské
 dítě…), které jdou na web – v poznámkách osob, ve „Co hledáme“ (`ISSUES`), u bočních příbuzných, v zajímavostech a v příběhu.
-Co uživatel na webu schválí, zapiš úryvkem do `web.json` → `citlive_schvaleno` (`web.md`).
-Údaje z rodinného stromu (GEDCOM) a od rodiny bývají právě takové – pro výzkum ano, na web jen se souhlasem.
+Hlášky o zemřelých rovnou zapiš úryvkem do `web.json` → `citlive_schvaleno` (`web.md`); ptej se, jen když se týkají žijících.
+Údaje o žijících z rodinného stromu (GEDCOM) a od rodiny: pro výzkum ano, na web jen se souhlasem.
 1. Seznam žijících osob na webu a co o nich web říká.
 2. Rodinné fotky a dokumenty – souhlasí ti, kdo jsou na nich (nebo jejich rodina)?
 3. Přihlašovací otázka a odpověď (`web.json`) – nastavená a dost těžká?

@@ -168,7 +168,7 @@ Ostatní archivy jsou většinou jen na písemnou žádost – zapiš do `archiv
 | **Maďarsko** | 110 / 86 / 30 | roku po založení registru | starší stránky archivů MNL uvádějí neplatné lhůty z 2014; zvláštní údaje (náboženství, nemanželský původ, příčina smrti) až 60 let po smrti |
 
 Lhůty počítané od roku registru nebo uzavření knihy (DE, PL) se posouvají jednou ročně. Citlivé údaje (náboženství,
-nemanželský původ, příčina smrti) u nedávno zemřelých nezveřejňuj – viz `soukromi.md`.
+nemanželský původ, příčina smrti) u žijících nezveřejňuj; u zemřelých je neřeš – viz `soukromi.md`.
 
 ## Milníky vedení záznamů
 | rok | co se změnilo | co to znamená pro hledání |

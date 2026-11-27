@@ -215,7 +215,7 @@ Podrobně `reference/web.md`. Ve zkratce:
 3. Po každé změně dat: `npm run data && npm run build`. Hlášky `POZOR: nefunkční odkaz` oprav hned. Po větším kole
    zkontroluj i texty úvodu ve `web.json` (`uvod`, `zajimavosti_na_uvodu`) – zastarávají.
 4. Před zveřejněním projdi s uživatelem `reference/soukromi.md` (co na webu bude, žijící lidé, hlášky `CITLIVÉ`
-   z `kontrola.py`; schválené zapiš do `web.json` → `citlive_schvaleno`).
+   z `kontrola.py`; citlivé údaje o zemřelých neřeš a bez ptaní je zapiš do `web.json` → `citlive_schvaleno`).
 
 ## Fáze 5 – Zveřejnění (volitelné, jen se souhlasem)
 Výchozí je **Cloudflare** (zdarma, bez limitu nasazení): `npx -y wrangler@4 login`, název adresy do `web.json`

@@ -8,6 +8,10 @@ Projekt založený starší verzí Claude sám nabídne aktualizovat (pozná to 
 
 ## Nepublikováno
 
+**Změny**
+- Soukromí: citlivé údaje o zemřelých (příčina smrti, nemoci, nemanželský původ…) už se neřeší a smí na web bez ptaní;
+  opatrnost a souhlas platí jen u žijících.
+
 **Nové**
 - Web: stránka **Statistiky** (`/statistiky/`) – čím se předci živili, věk při svatbě a při narození dítěte, kdy se brali,
   délka života, rodové obce a domy, kolik předků v které generaci známe; klepnutím na řádek grafu se ukážou jména.

@@ -30,8 +30,7 @@ Co bývá zajímavé (všechno z jednoho skutečného rodokmenu):
 
 Styl: nadpis `## Krátký a zvědavý`, 2–5 vět, konkrétní data a místa, odkazy na osoby `[Jméno](/osoba/<slug>/)`.
 Nejlepší 2–4 dej i na úvod webu (`web.json` → `zajimavosti_na_uvodu`).
-Citlivé věci z 20. století (sebevraždy, nemoci, rozvody, nemanželské děti u nedávno žijících) piš jen se souhlasem
-uživatele (`reference/soukromi.md`). `kontrola.py` je hlídá.
+Citlivé údaje o zemřelých neřeš, piš je věcně jako ostatní; souhlas potřebují jen věci o žijících (`reference/soukromi.md`).
 
 ## Příběh hlavního rodu
 **Hlavní rod** je rod výchozí osoby (rodné příjmení, většinou rod č. 8 v `LINES`). Když uživatel chce jiný, nastav
@@ -45,7 +44,7 @@ jde později doplnit. `kontrola.py` na to upozorní. Uživateli to nabídni, i k
 1. Sesbírej materiál: fakta a poznámky osob hlavního rodu, `SIDE`, zajímavosti, `udaje_od_rodiny.md`,
    rodinné paměti a dokumenty, novinové výstřižky.
 2. Napiš **koncept do chatu** a nech si ho schválit (délka, tón, co ano/ne). Pod koncept připiš, co je z matrik
-   a co od rodiny, a co jsi vynechal jako citlivé. Teprve po schválení ho ulož.
+   a co od rodiny, a co jsi vynechal kvůli žijícím. Teprve po schválení ho ulož.
 3. Ulož do `data/pribeh.md`:
    ```markdown
    ---
